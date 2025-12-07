@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Player">
+      <UniqueIdentifier>{dd685909-d25a-43ea-a5ca-a037d419978e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Player\PlayerInfo">
+      <UniqueIdentifier>{f770c84e-71fb-4ef8-9e4d-0114393569ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Player\PlayerInfo\Attributes">
+      <UniqueIdentifier>{7339369e-5dac-4385-ba1b-32c3dfbb499f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Player">
+      <UniqueIdentifier>{0051050c-96aa-4c79-b8e0-e493b21b9f1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Player\PlayerInfo">
+      <UniqueIdentifier>{9cbe0e8b-a727-41f9-96ed-8dafb0cf8fa6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="OffensiveAttributes.h">
+      <Filter>Header Files\Player\PlayerInfo\Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="DefensiveAttributes.h">
+      <Filter>Header Files\Player\PlayerInfo\Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicalAttributes.h">
+      <Filter>Header Files\Player\PlayerInfo\Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneralAttributes.h">
+      <Filter>Header Files\Player\PlayerInfo\Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="Attributes.h">
+      <Filter>Header Files\Player\PlayerInfo\Attributes</Filter>
+    </ClInclude>
+    <ClInclude Include="BodyInfo.h">
+      <Filter>Header Files\Player\PlayerInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="PersonalInfo.h">
+      <Filter>Header Files\Player\PlayerInfo</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
